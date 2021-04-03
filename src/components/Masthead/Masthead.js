@@ -9,7 +9,7 @@ const Masthead = () => {
                         <div className="text1-s1">
                             <p>
                                 Sed ut perspiciatis unde omnis iste natus
-                        </p>
+                            </p>
                         </div>
                         <div className="text2-s1">
                             <p>

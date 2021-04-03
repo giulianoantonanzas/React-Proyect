@@ -35,7 +35,7 @@ const Navbar = () => {
         <header>
             <nav className="nav" id="nav">
                 <ul className="nav-conteiner">
-                    <li className="nav-logo mr-auto p-2 bd-highlight"><a href="#home"><img src={logo} alt='logo 25Watts'/></a></li>
+                    <li className="nav-logo"><a href="#home"><img src={logo} alt='logo 25Watts'/></a></li>
                     <div class="mobile-menu" onClick={()=>displayMenu()}>
                         <div class="bar1"></div>
                         <div class="bar2"></div>

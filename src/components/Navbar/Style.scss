@@ -39,8 +39,8 @@ header {
         .mobile-menu {
             display: none;
             cursor: pointer;
-            padding-top: 20px;
-            top: 0;
+            top: 25px;
+            right: 5%;
             .bar1,
             .bar2,
             .bar3 {
@@ -73,10 +73,11 @@ header {
         }
         .mobile-menu {
             position: absolute;
-            right: 70px;
             display: block !important;
         }
         .navLinks li {
+            margin: 0px;
+            padding: 15px;
             display: none;
         }
     }

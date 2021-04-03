@@ -6,9 +6,10 @@ const About = () => {
         <div className="section2" id="about">
             <div className="content-s2" >
                 <div className="container">
-                    <p className="text1-s2"> We need Businesses 
-                    <p className="text1span-s2"> Grow and Innovate</p>
-                    </p>
+                    <div className="text1-s2">
+                        <p>We need Businesses </p>
+                        <p className="text1span-s2"> Grow and Innovate</p>
+                    </div>
                     <p className="text2-s2">
                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
                         sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,

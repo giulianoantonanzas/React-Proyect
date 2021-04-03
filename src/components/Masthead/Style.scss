@@ -16,14 +16,14 @@
     background-image: url('#{$route_img}slider-1.png');
     .content-s1{
         margin-left: 10%;
-        width: 100%;
+        margin-right: 10%;
         .text1-s1{
-            width:45%;
+            width:55%;
             font-size: 48px;
             margin-bottom: 30px;
         }
         .text2-s1{
-            width:30%;
+            width:35%;
             font-size: 16px;
             margin-bottom: 30px;
         }
@@ -33,10 +33,9 @@
 
 @media screen and (max-width: 600px){
     .section1{
-        background-position: center;
         .content-s1{
-            .text1-s1 ,.text2-s1, button{
-                margin-left: 20px;
+            .text1-s1{
+                font-size: 46px;
             }
             .text1-s1,.text2-s1{
                 width: 70%;
