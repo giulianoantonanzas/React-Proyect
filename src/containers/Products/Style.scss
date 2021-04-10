@@ -39,6 +39,26 @@
             right: 0;
             margin-left: 50%;
             padding: 7% 5%;
+            .carousel-content {
+                .item {
+                    display: none;
+                    &.selected {
+                        display: block;
+                        animation-name: selected;
+                        animation-duration: 0.4s;
+                        @keyframes selected {
+                            from {
+                                opacity: 0;
+                                transform: translateY(-10%);
+                            }
+                            to {
+                                transform: translateY(0);
+                                opacity: 1;
+                            }
+                        }
+                    }
+                }
+            }
             .text2-s3 {
                 font-size: 35px;
                 margin-bottom: 4%;

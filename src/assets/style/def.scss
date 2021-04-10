@@ -47,6 +47,17 @@ body{
     color: #ffffff;
 }
 
+button {
+    cursor: pointer;
+    &:active{
+        border-style: none;
+    }
+    &:focus {
+        outline: none;
+    }
+}
+
+
 
 .text1-s1 p,.text1span-s2,.text1-s2,.text1-s2 span,.text1-s5 p,.text1-s5 span{
     font-family: $title_name_font;

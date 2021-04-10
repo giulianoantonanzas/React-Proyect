@@ -1,0 +1,67 @@
+@import "../../assets/style/variables";
+
+.section4 {
+    box-sizing: border-box;
+    .content-s4 {
+        display: flex;
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: contain;
+        width: 100%;
+        height: 100vh;
+        background-image: url("#{$route_img}section4-image.png");
+        background-size: 56% 100%;
+        .container-accordion {
+            margin: auto;
+            .item {
+                margin-left: 8%;
+                width: 50%;
+            }
+            .accordion {
+                background-color: $color_background;
+                color: #444;
+                cursor: pointer;
+                width: 100%;
+                padding: 18px;
+                border: none;
+                text-align: left;
+                outline: none;
+                font-size: 15px;
+                transition: 0.4s;
+            }
+            .active,
+            .accordion:hover {
+                background-color: $color_border;
+            }
+
+            .accordion:after {
+                content: "\002B";
+                color: #777;
+                font-weight: bold;
+                float: right;
+                margin-left: 5px;
+            }
+
+            .active:after {
+                content: "\2212";
+            }
+
+            .panel {
+                padding: 0 18px;
+                background-color: white;
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 0.2s ease-out;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .section4 {
+        width: 100%;
+        .content-s4 {
+            background-size: cover;
+        }
+    }
+}

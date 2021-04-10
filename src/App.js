@@ -3,6 +3,7 @@ import Navbar from './components/Navbar/Navbar'
 import Masthead from './components/Masthead/Masthead'
 import About from './components/About/About'
 import Products from './containers/Products/Products'
+import Services from './containers/Services/Services'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
     <Masthead/>
     <About/>
     <Products/>
+    <Services/>
     </>
   );
 }
