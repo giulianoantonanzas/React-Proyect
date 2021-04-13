@@ -28,7 +28,6 @@ const Pruducts = () => {
         } else {
             setSelected(0)
         }
-
     }
     const lowerPosition = () => {
         if (selected > 0) {
@@ -63,7 +62,6 @@ const Pruducts = () => {
                                                         <p className="text3-s3">{item.message}</p>
                                                     </div>)
                                             }
-
                                         })
                                     }
                                 </div>

@@ -30,23 +30,23 @@ const Services = () => {
         <div className="section4" id="services">
             <div className="content-s4">
                 <div ref={accordion} className="container-accordion">
-                    <div class="item">
-                        <button class="accordion">Section 1</button>
-                        <div class="panel">
+                    <div className="item">
+                        <button className="accordion">Section 1</button>
+                        <div className="panel">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         </div>
                     </div>
 
-                    <div class="item">
-                        <button class="accordion">Section 2</button>
-                        <div class="panel">
+                    <div className="item">
+                        <button className="accordion">Section 2</button>
+                        <div className="panel">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         </div>
                     </div>
 
-                    <div class="item">
-                        <button class="accordion">Section 3</button>
-                        <div class="panel">
+                    <div className="item">
+                        <button className="accordion">Section 3</button>
+                        <div className="panel">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         </div>
                     </div>

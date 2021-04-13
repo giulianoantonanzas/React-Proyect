@@ -35,15 +35,20 @@
             }
 
             .accordion:after {
-                content: "\002B";
-                color: #777;
-                font-weight: bold;
+                flex-shrink: 0;
+                width: 1.25rem;
+                height: 1.25rem;
+                margin-left: auto;
+                content: "";
                 float: right;
-                margin-left: 5px;
+                background: url('../../assets/images/arrow.svg');
+                background-repeat: no-repeat;
+                background-size: 1.25rem;
+                transition: transform 0.2s ease-in-out;
             }
 
             .active:after {
-                content: "\2212";
+                transform: rotate(180deg);
             }
 
             .panel {
