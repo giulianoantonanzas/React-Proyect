@@ -1,18 +1,20 @@
 import './assets/style/def.scss'
 import Navbar from './components/Navbar/Navbar'
-import Masthead from './components/Masthead/Masthead'
-import About from './components/About/About'
-import Products from './containers/Products/Products'
-import Services from './containers/Services/Services'
+import Masthead from './secctions/Masthead/Masthead'
+import About from './secctions/About/About'
+import Products from './secctions/Products/Products'
+import Services from './secctions/Services/Services'
+import Contact from './secctions/Contact/Contact'
 
 function App() {
   return (
     <>
-    <Navbar/>
-    <Masthead/>
-    <About/>
-    <Products/>
-    <Services/>
+      <Navbar />
+      <Masthead />
+      <About />
+      <Products />
+      <Services />
+      <Contact />
     </>
   );
 }

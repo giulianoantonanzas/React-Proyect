@@ -1,0 +1,45 @@
+@import "../../assets/style/variables";
+.my-carrousel {
+    .container-points {
+        display: flex;
+        .point {
+            margin: 3%;
+            width: 15px;
+            height: 15px;
+            background: gray;
+            border-radius: 50%;
+            &.selected {
+                background: $color_primary;
+            }
+        }
+    }
+
+    .item {
+        display: none;
+        &.active {
+            display: block;
+            .content {
+                animation-name: Switch;
+                animation-duration: 0.4s;
+                @keyframes Switch {
+                    from {
+                        opacity: 0;
+                    }
+                    to {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+        .text1-s1 {
+            width: 55%;
+            font-size: 48px;
+            margin-bottom: 30px;
+        }
+        .text2-s1 {
+            width: 35%;
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+    }
+}
