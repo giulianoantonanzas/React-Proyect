@@ -20,12 +20,9 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .section1 {
         .content-s1 {
-            .text1-s1 {
-                font-size: 46px;
-            }
             .text1-s1,
             .text2-s1 {
                 width: 70%;

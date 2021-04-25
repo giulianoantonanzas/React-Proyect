@@ -64,3 +64,12 @@
         }
     }
 }
+
+@media screen and (max-width: 767px) {
+    .container-accordion {
+        .item {
+            margin: auto;
+            width: 90%;
+        }
+    }
+}

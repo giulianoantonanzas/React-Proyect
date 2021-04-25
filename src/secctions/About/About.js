@@ -7,8 +7,9 @@ const About = () => {
             <div className="content-s2" >
                 <div className="container">
                     <div className="text1-s2">
-                        <p>We need Businesses </p>
-                        <p className="text1span-s2"> Grow and Innovate</p>
+                        <h2>We need Businesses <br />
+                            <span className="text1span-s2"> Grow and Innovate</span> </h2>
+
                     </div>
                     <p className="text2-s2">
                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr,

@@ -47,21 +47,13 @@ const Pruducts = () => {
                                 <div className="carousel-content">
                                     {
                                         carouselContent.map((item, index) => {
-                                            if (index === selected) {
-                                                return (
-                                                    <div class="item selected" key={index}>
-                                                        <p className="text1-s3">{item.title}</p>
-                                                        <p className="text2-s3">{item.subtitle}</p>
-                                                        <p className="text3-s3">{item.message}</p>
-                                                    </div>)
-                                            } else {
-                                                return (
-                                                    <div class="item" key={index}>
-                                                        <p className="text1-s3">{item.title}</p>
-                                                        <p className="text2-s3">{item.subtitle}</p>
-                                                        <p className="text3-s3">{item.message}</p>
-                                                    </div>)
-                                            }
+                                            return (
+                                                <div class={`${index===selected? "item selected" : "item"}`} key={index}>
+                                                    <p className="text1-s3">{item.title}</p>
+                                                    <h3 className="text2-s3">{item.subtitle}</h3>
+                                                    <p className="text3-s3">{item.message}</p>
+                                                </div>
+                                            )
                                         })
                                     }
                                 </div>
