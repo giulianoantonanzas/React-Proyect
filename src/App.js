@@ -5,6 +5,7 @@ import About from './secctions/About/About'
 import Products from './secctions/Products/Products'
 import Services from './secctions/Services/Services'
 import Contact from './secctions/Contact/Contact'
+import Footer from './components/Footer/Footer'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Products />
       <Services />
       <Contact />
+      <Footer/>
     </>
   );
 }

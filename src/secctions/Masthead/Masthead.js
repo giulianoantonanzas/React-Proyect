@@ -15,9 +15,7 @@ const Masthead = () => {
     return (
         <div className="section1" id="home">
             <div className="content-s1">
-                <div className="container-s1">
-                    <Carraousel>{contenido}</Carraousel>
-                </div>
+                <Carraousel>{contenido}</Carraousel>
             </div>
         </div>
     )

@@ -20,8 +20,8 @@ const Navbar = () => {
          ()=>{
             window.onscroll = () => {
                 if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-                    nav.current.style.marginBottom = "-8px";
-                    nav.current.style.marginTop = "-8px";
+                    nav.current.style.marginBottom = "-4px";
+                    nav.current.style.marginTop = "-4px";
                     nav.current.style.transition = "0.4s";
                     nav.current.style.backgroundColor = "rgba(0, 0, 0, 0.212)";
                 } else {
@@ -40,10 +40,10 @@ const Navbar = () => {
             <nav ref={nav} className="nav" id="nav">
                 <ul className="nav-conteiner">
                     <li className="nav-logo"><a href="#home"><img src={logo} alt='logo 25Watts'/></a></li>
-                    <div ref={button} class="mobile-menu" onClick={()=>displayMenu()}>
-                        <div class="bar1"></div>
-                        <div class="bar2"></div>
-                        <div class="bar3"></div>
+                    <div ref={button} className="mobile-menu" onClick={()=>displayMenu()}>
+                        <div className="bar1"></div>
+                        <div className="bar2"></div>
+                        <div className="bar3"></div>
                     </div>
                     <div className="navLinks" id="navLinks">
                         <li className="nav-element"><a href="#home">Home</a></li>

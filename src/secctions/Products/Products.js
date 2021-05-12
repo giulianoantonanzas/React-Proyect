@@ -48,7 +48,7 @@ const Pruducts = () => {
                                     {
                                         carouselContent.map((item, index) => {
                                             return (
-                                                <div class={`${index===selected? "item selected" : "item"}`} key={index}>
+                                                <div className={`${index===selected? "item selected" : "item"}`} key={index}>
                                                     <p className="text1-s3">{item.title}</p>
                                                     <h3 className="text2-s3">{item.subtitle}</h3>
                                                     <p className="text3-s3">{item.message}</p>
@@ -57,7 +57,7 @@ const Pruducts = () => {
                                         })
                                     }
                                 </div>
-                                <div class="button-s3">
+                                <div className="button-s3">
                                     <button href="" className="left-arrow"><img src={leftArrow} alt="flecha izquierda" onClick={lowerPosition} /></button>
                                     <button href="" className="left-arrow"><img src={rightArrow} alt="flecha derecha" onClick={upPosition} /></button>
                                 </div>
